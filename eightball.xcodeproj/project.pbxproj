@@ -13,6 +13,12 @@
 		E614EE801AB95E6900676963 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E614EE7F1AB95E6900676963 /* Images.xcassets */; };
 		E614EE831AB95E6900676963 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E614EE811AB95E6900676963 /* LaunchScreen.xib */; };
 		E614EE8F1AB95E6900676963 /* eightballTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E614EE8E1AB95E6900676963 /* eightballTests.swift */; };
+		E614EEA11AB95E9300676963 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E614EEA01AB95E9300676963 /* InterfaceController.swift */; };
+		E614EEA31AB95E9300676963 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E614EEA21AB95E9300676963 /* Images.xcassets */; };
+		E614EEA71AB95E9300676963 /* eightball WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = E614EEA61AB95E9300676963 /* eightball WatchKit App.app */; };
+		E614EEAF1AB95E9300676963 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E614EEAD1AB95E9300676963 /* Interface.storyboard */; };
+		E614EEB11AB95E9300676963 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E614EEB01AB95E9300676963 /* Images.xcassets */; };
+		E614EEB41AB95E9300676963 /* eightball WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E614EE9C1AB95E9300676963 /* eightball WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +29,35 @@
 			remoteGlobalIDString = E614EE721AB95E6900676963;
 			remoteInfo = eightball;
 		};
+		E614EEA81AB95E9300676963 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E614EE6B1AB95E6900676963 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E614EEA51AB95E9300676963;
+			remoteInfo = "eightball WatchKit App";
+		};
+		E614EEB21AB95E9300676963 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E614EE6B1AB95E6900676963 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E614EE9B1AB95E9300676963;
+			remoteInfo = "eightball WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E614EEBB1AB95E9300676963 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E614EEB41AB95E9300676963 /* eightball WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E614EE731AB95E6900676963 /* eightball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eightball.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +70,14 @@
 		E614EE881AB95E6900676963 /* eightballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eightballTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E614EE8D1AB95E6900676963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E614EE8E1AB95E6900676963 /* eightballTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eightballTests.swift; sourceTree = "<group>"; };
+		E614EE9C1AB95E9300676963 /* eightball WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "eightball WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E614EE9F1AB95E9300676963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E614EEA01AB95E9300676963 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		E614EEA21AB95E9300676963 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E614EEA61AB95E9300676963 /* eightball WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eightball WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E614EEAC1AB95E9300676963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E614EEAE1AB95E9300676963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		E614EEB01AB95E9300676963 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +95,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E614EE991AB95E9300676963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +110,8 @@
 			children = (
 				E614EE751AB95E6900676963 /* eightball */,
 				E614EE8B1AB95E6900676963 /* eightballTests */,
+				E614EE9D1AB95E9300676963 /* eightball WatchKit Extension */,
+				E614EEAA1AB95E9300676963 /* eightball WatchKit App */,
 				E614EE741AB95E6900676963 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +121,8 @@
 			children = (
 				E614EE731AB95E6900676963 /* eightball.app */,
 				E614EE881AB95E6900676963 /* eightballTests.xctest */,
+				E614EE9C1AB95E9300676963 /* eightball WatchKit Extension.appex */,
+				E614EEA61AB95E9300676963 /* eightball WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +165,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E614EE9D1AB95E9300676963 /* eightball WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E614EEA01AB95E9300676963 /* InterfaceController.swift */,
+				E614EEA21AB95E9300676963 /* Images.xcassets */,
+				E614EE9E1AB95E9300676963 /* Supporting Files */,
+			);
+			path = "eightball WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		E614EE9E1AB95E9300676963 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E614EE9F1AB95E9300676963 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E614EEAA1AB95E9300676963 /* eightball WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				E614EEAD1AB95E9300676963 /* Interface.storyboard */,
+				E614EEB01AB95E9300676963 /* Images.xcassets */,
+				E614EEAB1AB95E9300676963 /* Supporting Files */,
+			);
+			path = "eightball WatchKit App";
+			sourceTree = "<group>";
+		};
+		E614EEAB1AB95E9300676963 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E614EEAC1AB95E9300676963 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +211,12 @@
 				E614EE6F1AB95E6900676963 /* Sources */,
 				E614EE701AB95E6900676963 /* Frameworks */,
 				E614EE711AB95E6900676963 /* Resources */,
+				E614EEBB1AB95E9300676963 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E614EEB31AB95E9300676963 /* PBXTargetDependency */,
 			);
 			name = eightball;
 			productName = eightball;
@@ -150,6 +241,39 @@
 			productReference = E614EE881AB95E6900676963 /* eightballTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E614EE9B1AB95E9300676963 /* eightball WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E614EEB81AB95E9300676963 /* Build configuration list for PBXNativeTarget "eightball WatchKit Extension" */;
+			buildPhases = (
+				E614EE981AB95E9300676963 /* Sources */,
+				E614EE991AB95E9300676963 /* Frameworks */,
+				E614EE9A1AB95E9300676963 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E614EEA91AB95E9300676963 /* PBXTargetDependency */,
+			);
+			name = "eightball WatchKit Extension";
+			productName = "eightball WatchKit Extension";
+			productReference = E614EE9C1AB95E9300676963 /* eightball WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		E614EEA51AB95E9300676963 /* eightball WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E614EEB51AB95E9300676963 /* Build configuration list for PBXNativeTarget "eightball WatchKit App" */;
+			buildPhases = (
+				E614EEA41AB95E9300676963 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "eightball WatchKit App";
+			productName = "eightball WatchKit App";
+			productReference = E614EEA61AB95E9300676963 /* eightball WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +289,12 @@
 					E614EE871AB95E6900676963 = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = E614EE721AB95E6900676963;
+					};
+					E614EE9B1AB95E9300676963 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					E614EEA51AB95E9300676963 = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -183,6 +313,8 @@
 			targets = (
 				E614EE721AB95E6900676963 /* eightball */,
 				E614EE871AB95E6900676963 /* eightballTests */,
+				E614EE9B1AB95E9300676963 /* eightball WatchKit Extension */,
+				E614EEA51AB95E9300676963 /* eightball WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +334,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E614EE9A1AB95E9300676963 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E614EEA31AB95E9300676963 /* Images.xcassets in Resources */,
+				E614EEA71AB95E9300676963 /* eightball WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E614EEA41AB95E9300676963 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E614EEAF1AB95E9300676963 /* Interface.storyboard in Resources */,
+				E614EEB11AB95E9300676963 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +375,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E614EE981AB95E9300676963 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E614EEA11AB95E9300676963 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +390,16 @@
 			isa = PBXTargetDependency;
 			target = E614EE721AB95E6900676963 /* eightball */;
 			targetProxy = E614EE891AB95E6900676963 /* PBXContainerItemProxy */;
+		};
+		E614EEA91AB95E9300676963 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E614EEA51AB95E9300676963 /* eightball WatchKit App */;
+			targetProxy = E614EEA81AB95E9300676963 /* PBXContainerItemProxy */;
+		};
+		E614EEB31AB95E9300676963 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E614EE9B1AB95E9300676963 /* eightball WatchKit Extension */;
+			targetProxy = E614EEB21AB95E9300676963 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +418,14 @@
 				E614EE821AB95E6900676963 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		E614EEAD1AB95E9300676963 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E614EEAE1AB95E9300676963 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -338,6 +514,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = eightball/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -348,6 +525,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = eightball/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -388,6 +566,60 @@
 			};
 			name = Release;
 		};
+		E614EEB61AB95E9300676963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = eightball_WatchKit_Extension;
+				INFOPLIST_FILE = "eightball WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		E614EEB71AB95E9300676963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = eightball_WatchKit_Extension;
+				INFOPLIST_FILE = "eightball WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		E614EEB91AB95E9300676963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "eightball WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E614EEBA1AB95E9300676963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "eightball WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -413,6 +645,22 @@
 			buildConfigurations = (
 				E614EE961AB95E6900676963 /* Debug */,
 				E614EE971AB95E6900676963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E614EEB51AB95E9300676963 /* Build configuration list for PBXNativeTarget "eightball WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E614EEB61AB95E9300676963 /* Debug */,
+				E614EEB71AB95E9300676963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E614EEB81AB95E9300676963 /* Build configuration list for PBXNativeTarget "eightball WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E614EEB91AB95E9300676963 /* Debug */,
+				E614EEBA1AB95E9300676963 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
